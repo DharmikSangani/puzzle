@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:background="@drawable/bd1"
+        android:orientation="vertical"
+        app:backgroundTint="@null">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="ℕ𝕦𝕞𝕓𝕖𝕣 ℙ𝕦𝕫𝕫𝕝𝕖"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:layout_margin="1dp"
+        android:layout_weight="1"
+        android:background="@drawable/bd2"
+        android:orientation="vertical"
+        app:backgroundTint="@null">
+
+        <LinearLayout
+            android:layout_width="356dp"
+            android:layout_height="365dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bd3"
+            android:orientation="vertical"
+            app:backgroundTint="@null">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/bd1"
+                android:orientation="horizontal"
+                app:backgroundTint="@null">
+
+                <Button
+                    android:id="@+id/b0"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bd"
+                    android:textColor="#2E180A"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/bd"
+                    android:textColor="#2E180A"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/bd"
+                    android:textColor="#2E180A"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/bd1"
+                app:backgroundTint="@null">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/bd"
+                    android:textColor="#2E180A"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/bd"
+                    android:textColor="#2E180A"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="8dp"
+                    android:background="@drawable/bd"
+                    android:textColor="#2E180A"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:background="@drawable/bd1"
+                app:backgroundTint="@null">
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bd"
+                    android:textColor="#2E180A"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bd"
+                    android:textColor="#2E180A"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bd"
+                    android:textColor="@color/black"
+                    android:textSize="40dp"
+                    app:backgroundTint="@null" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        app:backgroundTint="@null"
+        android:background="@drawable/bd2">
+
+        <Button
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:text="Restart game"
+            android:textSize="20dp"
+            android:textColor="#5C5031"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="30dp"
+            app:backgroundTint="@null"
+            android:background="@android:color/transparent"
+            android:id="@+id/restart"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+</LinearLayout>
